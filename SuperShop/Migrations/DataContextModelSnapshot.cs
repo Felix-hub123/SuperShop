@@ -29,7 +29,7 @@ namespace SuperShop.Migrations
                     b.Property<string>("ImageUrl")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<bool>("Isvailable")
+                    b.Property<bool>("IsAvailable")
                         .HasColumnType("bit");
 
                     b.Property<DateTime?>("LastPurchase")
