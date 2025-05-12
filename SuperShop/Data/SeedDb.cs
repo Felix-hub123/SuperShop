@@ -23,7 +23,7 @@ namespace SuperShop.Data
             {
                 AddProduct("Iphone X");
                 AddProduct("Magic Mouse");
-                AddProduct("Iwatch Series"); 
+                AddProduct("Iwatch Series");
                 AddProduct("IPad Mini");
                 await _context.SaveChangesAsync();
             }
@@ -38,8 +38,8 @@ namespace SuperShop.Data
                 Isvailable = true,
                 Stock = _random.Next(100),
             });
-            
-               
+
+
         }
     }
 }
