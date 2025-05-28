@@ -52,6 +52,8 @@ namespace SuperShop
             services.AddScoped<IUserHelper, UserHelper>();
 
             services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddScoped<IImageHelper, ImageHelper>();
+            services.AddScoped<IConverterHelper, ConverterHelper>();
 
 
             services.AddControllersWithViews();
